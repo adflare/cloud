@@ -7,6 +7,12 @@
 </head>
 <body>
 <div class="container-fluid">
+    <nav class="navbar-x navbar-light" id="login-branding">
+        <div class="col-sm-12">
+            <a class="navbar-brand" href="#">adflare cloud</a>
+            <a class="pull-xs-right nav-link">На главную</a>
+        </div>
+    </nav>
     <div class="row" id="login">
         <div class="col-sm-12" id="login-head">
             <h2 class="text-sm-center"><%= title %></h2>
@@ -27,5 +33,7 @@
         </div>
     </div>
 </div>
+
+<%- include ../partials/scripts.ejs %>
 </body>
 </html>

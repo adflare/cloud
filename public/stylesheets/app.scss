@@ -1,8 +1,16 @@
 @import '../../bower_components/bootstrap/scss/bootstrap';
+@import 'vars';
 @import 'appsubs';
+@mixin branded {
+  color: $brand-color;
+  &hover {
+    color: $brand-hover;
+  }
+}
 * {
   font-family: 'Play', sans-serif !important;
 }
+
 .navbar-x {
   @extend .navbar;
   background: none;
