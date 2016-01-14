@@ -3,3 +3,11 @@
 * {
   font-family: 'Play', sans-serif !important;
 }
+.navbar-x {
+  @extend .navbar;
+  background: none;
+  .navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+}

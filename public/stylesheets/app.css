@@ -221,7 +221,7 @@ th {
   h3 {
     page-break-after: avoid; }
 
-  .navbar {
+  .navbar, .navbar-x {
     display: none; }
 
   .btn > .caret,
@@ -2777,15 +2777,15 @@ input[type="button"].btn-block {
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
-.navbar {
+.navbar, .navbar-x {
   position: relative;
   padding: 0.5rem 1rem; }
-  .navbar::after {
+  .navbar::after, .navbar-x::after {
     content: "";
     display: table;
     clear: both; }
   @media (min-width: 544px) {
-    .navbar {
+    .navbar, .navbar-x {
       border-radius: 0.25rem; } }
 
 .navbar-full {
@@ -4671,5 +4671,11 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 * {
   font-family: 'Play', sans-serif !important; }
+
+.navbar-x {
+  background: none; }
+  .navbar-x .navbar-brand {
+    font-size: xx-large;
+    font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */
