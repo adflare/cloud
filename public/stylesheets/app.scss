@@ -1,6 +1,9 @@
 @import '../../bower_components/bootstrap/scss/bootstrap';
 @import 'vars';
 @import 'appsubs';
+$b-color: #9485E9;
+$l-color: #B1B1C5;
+$d-color: #302E4D;
 @mixin branded {
   color: $brand-color;
   &hover {
@@ -11,11 +14,35 @@
   font-family: 'Play', sans-serif !important;
 }
 
+h1, h2, h3, h4 {
+  color: $d-color;
+}
+
 .navbar-x {
   @extend .navbar;
+  color: $b-color;
   background: none;
   .navbar-brand {
     font-size: xx-large;
     font-weight: bold;
+  }
+}
+
+.nav-item-x {
+  @extend .nav-item;
+}
+
+.nav-item-x .active {
+  color: $d-color !important;
+}
+
+a.nav-link-x {
+  @extend .nav-link;
+  color: $b-color !important;
+  .active {
+    color: $d-color !important;
+  }
+  &:hover {
+    color: $l-color !important;
   }
 }
