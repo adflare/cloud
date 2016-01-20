@@ -4715,7 +4715,7 @@ h1, h2, h3, h4 {
   color: #302E4D; }
 
 .navbar-x {
-  color: #9485E9;
+  color: #342E8A;
   background: none; }
   .navbar-x .navbar-brand {
     font-size: xx-large;
@@ -4725,7 +4725,7 @@ h1, h2, h3, h4 {
   color: #302E4D !important; }
 
 a.nav-link-x {
-  color: #9485E9 !important; }
+  color: #342E8A !important; }
   a.nav-link-x .active {
     color: #302E4D !important; }
   a.nav-link-x:hover {
